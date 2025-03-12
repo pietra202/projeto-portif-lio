@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(252, 164, 193);
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./assets/foto-fundo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#root::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.508); /* Ajuste a opacidade aqui */
+  z-index: -1; /* Coloca a camada atrás do conteúdo */
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-bottom: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(145, 0, 0);
+  margin-bottom: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.title3 {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 20;
+  color: rgb(73, 9, 39);
+  text-align: left;
+  margin-inline: 20px;
+}
+
+img {
+  width: 300px;
+  height: 420px;
+}
+
+.cardPhoto {
+  width: 310px;
+  height: 440px;
+}
